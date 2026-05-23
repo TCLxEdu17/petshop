@@ -4,7 +4,7 @@ import org.domain.entity.Pet;
 
 import java.util.UUID;
 
-public interface UpdateUseCase {
+public interface UpdatePetUseCase {
 
     Pet execute (UUID id,
                 String name,

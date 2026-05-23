@@ -1,4 +1,11 @@
 package org.domain.usecase;
 
-public class CreatePetUseCase {
+import org.domain.entity.Pet;
+
+public interface CreatePetUseCase {
+
+    Pet execute (String name,
+                String species,
+                String breed,
+                Integer age);
 }

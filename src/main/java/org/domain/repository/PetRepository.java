@@ -1,4 +1,4 @@
-package org.domain.port.out;
+package org.domain.repository;
 
 import org.domain.entity.Pet;
 
